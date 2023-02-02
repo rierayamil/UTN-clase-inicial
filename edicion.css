@@ -1,0 +1,46 @@
+.cube {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.cube div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.cube .top {
+    background-color: green;
+    backface-visibility: hidden;
+    transform: rotateX(-90deg) translateY(-50px);
+}
+.cube .bottom {
+    background-color: green;
+    backface-visibility: hidden;
+    transform: rotateX(90deg) translateY(50px);
+}
+.cube .left {
+    background-color: green;
+    backface-visibility: hidden;
+    transform: rotateY(-90deg) translateX(-50px);
+}
+.cube .right {
+    background-color: green;
+    backface-visibility: hidden;
+    transform: rotateY(90deg) translateX(50px);
+}
+.cube .front {
+    background-color: green;
+    backface-visibility: hidden;
+    transform: translateZ(50px);
+}
+.cube .back {
+    background-color: green;
+    backface-visibility: hidden;
+    transform: rotateY(180deg) translateZ(50px);
+}
+.cube .top-left {
+    background-color: blue;
+    backface-visibility: hidden;
+    transform: rotateX(-90deg) translateY(-50px) translateX(-50px);
+}
